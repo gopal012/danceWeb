@@ -1,0 +1,37 @@
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+}
+h1{
+    text-align: center;
+    margin-top: 10px;
+}
+.form{
+    min-height: 72.5vh;
+}
+.myclass{
+    display: flex;
+    flex-direction: column;
+    margin: 22px 10px 14px 499px;
+    text-align: center;
+    border-radius: 25px;
+    width: 370px;
+    border: 2px solid darkblue;
+    padding: 3px 18px;
+}
+
+.btn{
+    display: block;
+    margin: 9px auto;
+    width: 172px;
+    border: 2px solid darkblue;
+    border-radius: 12px;
+    padding: 3px 6px;
+}
+
+.btn:hover{
+    background-color: black;
+    color: aliceblue;
+    cursor: pointer;
+    border: 2px solid white;
+}

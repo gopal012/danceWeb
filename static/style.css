@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Gentium+Plus&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Gentium Plus', serif;
+}
+
+/* ---------------------------------------------------NAVIGATION BAR------------------------------------------------ */
+#navbar{
+    background-color: skyblue;
+    padding: 3px 7px;
+}
+
+#navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+    color: blueviolet;
+    padding: 5px 5px;
+    font-size: 20px;
+    font-weight: bolder;
+    justify-content: center;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 5px 19px;
+}
+#navbar li a:hover{
+    color: black;
+}
+
+#logo{
+    display: flex;
+}
+
+#logo img{
+
+    width: 95px;
+    height: 74px;
+    /* filter: invert(100%); */
+    border-radius: 8px
+}
+
+/* ---------------------------------------------------INTRO------------------------------------------------ */
+#introsection{
+    color: #ffb8b8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    height: 400px;
+    background-color: red;
+    background: url("/static/michael-afonso-z8Tul255kGg-unsplash.jpg") no-repeat center center/cover;
+    font-size: 3rem;
+    font-weight: bolder;
+
+}
+
+/* ---------------------------------------------------MISSION------------------------------------------------ */
+
+#missionsection{
+    height: 400px;
+    display: block;
+    margin: auto;
+    width: 77%;
+}
+#missionsection h1{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 2rem;
+}
+
+.card{
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 29%;
+    margin: 20px;
+    height: 271px;
+    display: inline-block;
+}
+
+.card h2{
+    text-align: center;
+    padding-top: 5px;
+}
+
+.card-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-img img{
+    height: 117px;
+}
+
+.card-content{
+    text-align: center;
+}
+
+/* ---------------------------------------------------SPONSER------------------------------------------------ */
+#sponserssection{
+    height: 300px;
+    background-color: lavender;
+    width: 100%;
+}
+#sponserssection h1{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 2rem;
+}
+
+
+#sponser{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#sponser img{
+    height: 150px;
+    margin: 22px 14px;
+    width: 220px;
+}
+
+/* ---------------------------------------------------FOOTER------------------------------------------------ */
+#footer{
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+footer{
+    height: 28px;
+    background-color: black;
+}

@@ -1,0 +1,53 @@
+doctype html 
+html
+    head 
+        style
+            include ../static/style.css
+    body 
+        nav#navbar 
+            ul 
+                div#logo 
+                    img(src="/static/logo.jpg", alt="Error")
+                li #[a(href="/") Home ]
+                li #[a(href="/") About Us ]
+                li #[a(href="/") Services ]
+                li #[a(href="/") Class Info ]
+                li #[a(href="/") Contact Us]
+        section#introsection 
+            div Welcome To The Dance Academy 
+            div Eat Dance Sleep Repeat
+        section#missionsection 
+            h1 Our Mission
+            div.card 
+                h2 Diverse Training
+                div.card-box 
+                    div.card-img 
+                        img(src="/static/pic1.png", alt="Error")
+                    div.card-content 
+                        p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse ducimus quae corporis natus cum aperiam dolor 
+            div.card 
+                h2 Mental Grit
+                div.card-box 
+                    div.card-img 
+                        img(src="/static/images.png", alt="Error")
+                    div.card-content 
+                        p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse ducimus quae corporis natus cum aperiam dolor 
+            div.card 
+                h2 Physical Excellence
+                div.card-box 
+                    div.card-img 
+                        img(src="/static/images (1).jpg", alt="Error")
+                    div.card-content 
+                        p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse ducimus quae corporis natus cum aperiam dolor 
+        section#sponserssection 
+            h1   Sponser's Section 
+            div#sponser 
+                img(src="/static/s1.png", alt="ERROR")
+                img(src="/static/s2.png", alt="ERROR")
+                img(src="/static/s3.jpg", alt="ERROR")
+                img(src="/static/s4.jpg", alt="ERROR")
+        footer#footer
+            |   Copyright © 2022 YourDanceAcademy.com | All Right Reserved
+
+        script
+        include ../static/script.js
